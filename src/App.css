@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.search-container{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  border-bottom: 2px solid gray;
+}
+.input-box{
+  width: 25rem;
+  height: 2rem;
+  padding: 1rem;
+}
+.countries-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0.5rem;
+  padding: 1rem 0;
+}
+.countryCard{
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition:  transform 0.3s ease-in;
+}
+.countryCard:hover{
+  transform: scale(1.05);
+}
+.country-img{
+  height: 7rem;
+  width: 7rem;
+}
+.country-name{
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.no-result{
+  font-weight: bold;
+}
